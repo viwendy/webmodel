@@ -135,8 +135,8 @@
 				   
 				   /*获取顶部选项卡总长度*/
 			  function tabNavallwidth(){
-				  var topWindow=$(window.parent.document);
-				  var taballwidth=0,
+				  var topWindow = $(window.parent.document);
+				  var taballwidth = 0,
 					  $tabNav = topWindow.find(".breadcrumb"),
 					  $tabNavWp = topWindow.find(".breadcrumbs"),
 					  $tabNavitem = topWindow.find(".breadcrumb li"),
